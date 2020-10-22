@@ -1,0 +1,22 @@
+{
+  "name": "todo-app-workindia",
+  "version": "1.0.0",
+  "description": "simple todo-app using nodejs-mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node server.js",
+    "run-dev": "nodemon server.js"
+  },
+  "author": "Thota Sasidhar",
+  "license": "ISC",
+  "dependencies": {
+    "cryptr": "^6.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
