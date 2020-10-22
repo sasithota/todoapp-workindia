@@ -4,9 +4,8 @@
   "description": "simple todo-app using nodejs-mysql",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "run": "node server.js",
-    "run-dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Thota Sasidhar",
   "license": "ISC",
