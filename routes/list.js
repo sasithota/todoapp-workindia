@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const db = require('../db_server');
 
+// get all items related to agent_id
 router.get('/list/',(req,res)=>{
     const id = req.query.agent;
     console.log(id);
@@ -11,6 +12,7 @@ router.get('/list/',(req,res)=>{
     })
 });
 
+// post item for agent_id
 router.post('/',(req,res)=>{
     const id = req.query.agent;
     const {title,description,category,due_date} = req.body;
